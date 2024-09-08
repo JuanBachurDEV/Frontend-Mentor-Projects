@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #c6dde9;
+    box-sizing: border-box;
+    display: flex;
+    --bg-color: #fff;
+}
+
+.card-container {
+    max-width: clamp(250px, 50%, 320px);
+    margin: 50px auto;
+    justify-content: center;
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: 17px;
+    box-shadow: 4px 4px 16px #0004;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.data-card {
+    margin: 30px 15px 15px 15px;
+    text-align: center;
+}
+
+.data-card-h1 {
+    font-size: 0.7rem;
+}
+
+.data-card-paragraph {
+    font-size: 1rem;
+    text-wrap: pretty;
+    color: #555;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+
